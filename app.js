@@ -37,13 +37,13 @@ again.addEventListener('click', function () {
         hide[i].style.display = 'none';
     }
 
-    eleccion.style.display = "block";
+    eleccion.style.visibility = "visible";
 })
 
 function mostrarIcon(elejido) {
 
     document.querySelector('#Ele' + elejido).style.display = 'block'
-    eleccion.style.display = "none";
+    eleccion.style.visibility = "hidden";
     resultado.style.display = "block";
     randomIcon(elejido)
 }

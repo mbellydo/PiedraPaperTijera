@@ -8,10 +8,15 @@
 }
 
 body{
-    height: 100vh;
+    height: 150vh;
     background-image:linear-gradient(blue,rgb(0, 1, 63)) ;
     background-repeat: no-repeat;
     background-size:cover ;
+}
+
+#eleccion>div{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .icons{
