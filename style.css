@@ -1,0 +1,44 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    height: 100vh;
+    background-image:linear-gradient(blue,rgb(0, 1, 63)) ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.icons{
+    height: 400px;
+}
+
+.icon{
+    width: 130px;
+    height: 130px;
+    border: 15px solid;
+    padding: 20px;
+    background-color: white
+}
+
+.center {
+    display: block;
+    margin: auto;
+  }
+
+#eleccion{
+    margin-top: 150px;
+    background-image: url('/images/bg-triangle.svg') ;
+    background-size: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hide{
+    display: none;
+}
